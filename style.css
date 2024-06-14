@@ -1,0 +1,137 @@
+/* You can add custom CSS and extend Boostrap styles in this file.  Remember, Bootstrap is just CSS at the end of the day! */
+
+body{
+  font-family: 'Lato', sans-serif;
+  color: white;
+  background-color: #666362;
+}
+
+#hero-section {
+	background-image: 
+  linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.8)),
+  url("assets/herobg.jpg");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	width: 100%;
+  height: auto; 
+  padding-bottom: 5vh;
+}
+
+/*SIZZLE ADDED WITH THE HELP OF CONNOR: This part of the CSS makes it so the parallax effect is disabled on mobile devices (width less than 450px) so the picture displays properly. To re-enable the parallax effect in case this could cause any issues, the only thing needed is to remove it, making it so the parallax works on small resolutions on pc but the image would not work on mobile. */
+
+/* @media (max-width: 450px) {
+  #hero-section {
+    background-attachment: scroll;
+  }
+} */
+
+#hero-section h1,h2{
+  color: whitesmoke;
+  text-shadow: 0 0 5px black;
+  font-family: 'Lato', sans-serif;
+}
+
+#pfp {
+  height: 50%;
+  width: 40%;
+  max-height: 400px;
+  max-width: 300px;
+  border-radius: 50%;
+  margin: 20vh auto auto auto;
+  border: 5px solid #008080;
+}
+
+.carousel {
+  width: 70vw;
+  margin: auto;
+}
+
+.carousel-inner img{
+  object-fit: cover;
+  object-position: center;
+  height: 80vh;
+  max-height: 500px;
+  overflow: hidden;  
+  width: 100%;
+}
+
+section{
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+}
+
+#inspiration-section h5,h6{
+  text-shadow: 0 0 5px black;
+}
+
+#mission-title{
+  margin: 5px auto;
+}
+
+#mission-section{
+  margin: auto;
+}
+
+#mission-section p{
+  font-size: 1.2em;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+#mission-section img{
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+  height: 50vh;
+  overflow: hidden;
+  max-height: 300px;
+  max-width: 400px;
+}
+
+#skills-section img{
+  height: 150px;
+  width: 100px;
+}
+
+#skills-section p{
+  font-size: 1.2em;
+}
+
+#contact-section img{
+  height: 150px;
+  width: 100px;
+}
+
+#contact-section i{
+  font-size: 3em;
+  color:white;
+}
+
+
+#contact-section{
+  padding-bottom: 20px;
+}
+
+#contact-section i:hover{
+  color: #008080;
+}
+
+#bootstrap , #github{
+  background-color: white;
+  border-radius: 50%;
+}
+
+/*SIZZLE: This part of the code makes it so the highlighted text has a teal background and a grey-ish font color*/
+
+::selection {
+  color: rgba(161, 181, 201, .8);
+  background: #008080;
+}
+
+#mission-target, #skills-target, #inspiration-target, #contact-target {
+  position: relative;
+  top: -100px;
+}
