@@ -81,6 +81,23 @@ section{
   transform: translateY(-50%);
 }
 
+#experience-section img{
+  background-color: whitesmoke;
+  max-width: 200px;
+  max-height: 200px;
+  object-position: center;
+}
+
+#above-promotions img{
+  padding-top: 100px;
+  /* padding-bottom: 100px; */
+  background-clip: content-box;
+}
+
+#above-promotions h5{
+  padding-top: 57px;
+}
+
 #mission-section img{
   width: 100%;
   object-fit: cover;
@@ -134,4 +151,13 @@ section{
 #mission-target, #skills-target, #inspiration-target, #contact-target {
   position: relative;
   top: -100px;
+}
+
+#experience-section card{
+  min-height: 310px;
+}
+
+.card{
+  background-color: #666362;
+  text-align: center;
 }
