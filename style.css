@@ -3,7 +3,7 @@
 body{
   font-family: 'Lato', sans-serif;
   color: white;
-  background-color: #666362;
+  background-color: black;
 }
 
 #hero-section {
@@ -158,6 +158,18 @@ section{
 }
 
 .card{
-  background-color: #666362;
+  background-color:black;
   text-align: center;
 }
+
+#projects-section a{
+  color: whitesmoke;
+  background-color: #1c1f20;
+  text-decoration: none;
+  min-height: 100px;
+}
+
+#projects-section a:hover{
+  color: teal ;
+}
+
