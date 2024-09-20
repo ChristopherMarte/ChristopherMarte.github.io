@@ -3,7 +3,7 @@
 body{
   font-family: 'Lato', sans-serif;
   color: white;
-  background-color: #666362;
+  background-color: black;
 }
 
 #hero-section {
@@ -81,6 +81,23 @@ section{
   transform: translateY(-50%);
 }
 
+#experience-section img{
+  background-color: whitesmoke;
+  max-width: 200px;
+  max-height: 200px;
+  object-position: center;
+}
+
+#above-promotions img{
+  padding-top: 100px;
+  /* padding-bottom: 100px; */
+  background-clip: content-box;
+}
+
+#above-promotions h5{
+  padding-top: 57px;
+}
+
 #mission-section img{
   width: 100%;
   object-fit: cover;
@@ -135,3 +152,24 @@ section{
   position: relative;
   top: -100px;
 }
+
+#experience-section card{
+  min-height: 310px;
+}
+
+.card{
+  background-color:black;
+  text-align: center;
+}
+
+#projects-section a{
+  color: whitesmoke;
+  background-color: #1c1f20;
+  text-decoration: none;
+  min-height: 100px;
+}
+
+#projects-section a:hover{
+  color: teal ;
+}
+

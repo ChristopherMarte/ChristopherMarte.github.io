@@ -1,0 +1,32 @@
+.navbar { 
+    background-color: #242e4c; 
+}
+
+.cover { 
+    background: url('https://images.squarespace-cdn.com/content/v1/62a9da3469f84e0794e9938a/1675488470748-1OYA1E6Z50OGIM3EEZ3M/The%2BNona_Restaurant-36.jpg?format=750w'); 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    background-position: center center; 
+
+} 
+
+.bg-orange { 
+    background-color: #ff6144!important; 
+} 
+
+.vh-80 { 
+    min-height: 84vh; 
+} 
+
+.sign__container { 
+    width: 60%; 
+} 
+
+@media (min-width: 1200px) { 
+    .sign__container { 
+        width: 350px; 
+    } 
+    .subtitle-mb{ 
+        margin-bottom: 5.5rem!important; 
+    } 
+} 
